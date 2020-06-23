@@ -2,11 +2,7 @@
 
 import app.memory as mem
 
-
-def get_statistics():
-    mem.memory()
-
-
-statistics = get_statistics()
+details = mem.get_memory_details()
+print(details)
 
 # Here we can send the statistics to a server or even locally store the statistics in a database.
