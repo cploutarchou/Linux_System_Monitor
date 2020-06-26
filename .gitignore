@@ -1,3 +1,6 @@
 .idea
 venv
 /app/.ipynb_checkpoints
+.venv
+.vscode
+ui/__pycache__
